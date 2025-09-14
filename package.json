@@ -4,8 +4,8 @@
   "version": "0.3.0",
   "private": true,
   "engines": {
-    "node": ">=18",
-    "npm": ">=9",
+    "node": "22.x.x",
+    "npm": "10.x.x",
     "yarn": "please-use-npm",
     "pnpm": "please-use-npm"
   },
@@ -57,13 +57,5 @@
     "ts-node": "10.9.1",
     "type-fest": "3.13.0",
     "typescript": "5.1.6"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/KonradSzwarc/devscard.git"
-  },
-  "bugs": {
-    "url": "https://github.com/KonradSzwarc/devscard/issues"
-  },
-  "homepage": "https://github.com/KonradSzwarc/devscard#readme"
+  }
 }
