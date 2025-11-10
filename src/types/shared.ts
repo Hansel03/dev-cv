@@ -1,11 +1,9 @@
-import type { CircleFlags, Fa6Brands, Fa6Solid, Ri, SimpleIcons } from 'iconify-icon-names';
-
 /**
  * Name of the icon from the iconify library.
  *
  * @see https://icon-sets.iconify.design
  */
-export type IconName = Fa6Brands | Fa6Solid | SimpleIcons | CircleFlags | Ri;
+export type IconName = string;
 
 /**
  * - Dynamic import of the image from `src/assets` folder. Recommended as it enables image optimization.

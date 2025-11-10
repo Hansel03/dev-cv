@@ -164,3 +164,108 @@ export const vue = createSkillFactory({
   iconColor: '#4FC08D',
   url: 'https://vuejs.org/',
 });
+
+export const angular = createSkillFactory({
+  name: 'Angular',
+  icon: 'simple-icons:angular',
+  iconColor: '#DD0031',
+  url: 'https://angular.io/',
+});
+
+export const primeng = createSkillFactory({
+  name: 'PrimeNG',
+  icon: 'devicon:primeng',
+  iconColor: '#DD0031',
+  url: 'https://primeng.org/',
+});
+
+export const karma = createSkillFactory({
+  name: 'Karma',
+  icon: 'devicon:karma',
+  iconColor: '#ED2A7A',
+  url: 'https://karma-runner.github.io/',
+});
+
+export const jasmine = createSkillFactory({
+  name: 'Jasmine',
+  icon: 'simple-icons:jasmine',
+  iconColor: '#8C9EFF',
+  url: 'https://jasmine.github.io/',
+});
+
+export const storybook = createSkillFactory({
+  name: 'Storybook',
+  icon: 'simple-icons:storybook',
+  iconColor: '#FF4785',
+  url: 'https://storybook.js.org/',
+});
+
+export const docker = createSkillFactory({
+  name: 'Docker',
+  icon: 'simple-icons:docker',
+  iconColor: '#2496ED',
+  url: 'https://www.docker.com/',
+});
+
+export const husky = createSkillFactory({
+  name: 'Husky',
+  icon: 'simple-icons:husky',
+  iconColor: '#F1574C',
+  url: 'https://typicode.github.io/husky/#/',
+});
+
+export const sonarQube = createSkillFactory({
+  name: 'SonarQube',
+  icon: 'simple-icons:sonarqube',
+  iconColor: '#4E9BCD',
+  url: 'https://www.sonarqube.org/',
+});
+
+export const ionic = createSkillFactory({
+  name: 'Ionic',
+  icon: 'simple-icons:ionic',
+  iconColor: '#3880FF',
+  url: 'https://ionicframework.com/',
+});
+
+export const flutter = createSkillFactory({
+  name: 'Flutter',
+  icon: 'simple-icons:flutter',
+  iconColor: '#02569B',
+  url: 'https://flutter.dev/',
+});
+
+export const reactNative = createSkillFactory({
+  name: 'React Native',
+  icon: 'devicon:reactnative',
+  iconColor: '#61DAFB',
+  url: 'https://reactnative.dev/',
+});
+
+export const svelte = createSkillFactory({
+  name: 'Svelte',
+  icon: 'devicon:svelte',
+  iconColor: '#FF3E00',
+  url: 'https://svelte.dev/',
+});
+
+export const ngrx = createSkillFactory({
+  name: 'NgRx',
+  icon: 'devicon:ngrx',
+  iconColor: '#FF3E00',
+  url: 'https://ngrx.io/',
+});
+
+export const freshchat = createSkillFactory({
+  name: 'Freshchat',
+  icon: 'simple-icons:wechat',
+  iconColor: '#FF3E00',
+  url: 'https://www.freshworks.com/live-chat-software/',
+});
+
+export const bootstrap = createSkillFactory({
+  name: 'Bootstrap',
+  icon: 'simple-icons:bootstrap',
+  iconColor: '#563D7C',
+  url: 'https://getbootstrap.com/',
+});

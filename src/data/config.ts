@@ -11,10 +11,10 @@ const config = {
     },
   },
   meta: {
-    title: 'Mark Freeman - Senior React Developer',
+    title: 'Hansel Suarez - FrontEnd Developer',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sodales ac dui at vestibulum. In condimentum metus id dui tincidunt, in blandit mi vehicula.',
-    faviconPath: '/src/assets/my-image.jpeg',
+      'Systems engineer with a diploma in software engineering, specializing in the optimization and delivery of high-impact technological solutions. Proven experience in: Agile methodologies (Scrum) for efficient project management and rapid development cycles. Transformation of complex requirements into robust and scalable software designs. Collaboration in cross-functional teams, providing technical leadership to overcome integration challenges. My objective: To contribute my technical vision and adaptability to drive innovation and success in a dynamic environment.',
+    faviconPath: '/src/assets/my-image.png',
   },
   pdf: {
     footer:
