@@ -11,7 +11,7 @@ Where links are used:
 - main-section.data.ts
 - portfolio-section.data.ts
 - skills-section.data.ts
-- testimonials-section.data.ts
+
 
 Usage examples:
 link({ url: '...' }) — returns base link object with provided url.

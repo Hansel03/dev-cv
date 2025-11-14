@@ -17,7 +17,7 @@ const mainSectionData = {
     { label: 'From', value: 'San Diego, California' },
   ],
   pdfDetails: [
-    { label: 'Phone', value: '619 475 6961' },
+    { label: 'Phone', value: '619 565 9405' },
     { label: 'Email', value: 'hanselsuarez03@gmail.com' },
     { label: 'LinkedIn', value: '/in/hansel-suarez', url: 'https://linkedin.com' },
     { label: 'GitHub', value: '/hansel-suarez', url: 'https://github.com' },
