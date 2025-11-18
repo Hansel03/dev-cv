@@ -9,7 +9,7 @@ const mainSectionData = {
     slug: 'profile',
     visible: true,
   },
-  image: import('@/assets/my-image.png'),
+  // image: import('@/assets/my-image.png'),
   fullName: 'Hansel Suarez',
   role: 'FrontEnd Developer',
   details: [
@@ -19,8 +19,12 @@ const mainSectionData = {
   pdfDetails: [
     { label: 'Phone', value: '619 565 9405' },
     { label: 'Email', value: 'hanselsuarez03@gmail.com' },
-    { label: 'LinkedIn', value: '/in/hansel-suarez', url: 'https://linkedin.com' },
-    { label: 'GitHub', value: '/hansel-suarez', url: 'https://github.com' },
+    {
+      label: 'LinkedIn',
+      value: '/in/hansel-suarez',
+      url: 'https://www.linkedin.com/in/hansel-suarez-paniza-63a65040/',
+    },
+    { label: 'GitHub', value: '/hansel-suarez', url: 'https://github.com/Hansel03' },
     { label: 'Website', value: 'hansel-suarez-personal-website.com', url: '/', fullRow: true },
   ],
   description:
