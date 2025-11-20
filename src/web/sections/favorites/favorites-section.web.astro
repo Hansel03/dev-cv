@@ -1,5 +1,5 @@
 ---
-import type { FavoritesSection } from '@/types/sections/favorites-section.types';
+import type { FavoritesSection, Book, Person, Video, Media } from '@/types/sections/favorites-section.types';
 
 import BookTile from './book-tile.astro';
 import MediaTile from './media-tile.astro';
@@ -16,16 +16,16 @@ const { config, books, medias, people, videos } = Astro.props;
 <SectionCard {...config}>
   <div class="flex flex-col gap-16">
     <FavoritesSubSection minTileWidth={160} subSection={books}>
-      {books?.data.map((book) => <BookTile {...book} />)}
+      {books?.data.map((book: Book) => <BookTile {...book} />)}
     </FavoritesSubSection>
     <FavoritesSubSection minTileWidth={120} subSection={people}>
-      {people?.data.map((person) => <PersonTile {...person} />)}
+      {people?.data.map((person: Person) => <PersonTile {...person} />)}
     </FavoritesSubSection>
     <FavoritesSubSection minTileWidth={204} subSection={videos}>
-      {videos?.data.map((video) => <VideoTile {...video} />)}
+      {videos?.data.map((video: Video) => <VideoTile {...video} />)}
     </FavoritesSubSection>
     <FavoritesSubSection minTileWidth={120} subSection={medias}>
-      {medias?.data.map((media) => <MediaTile {...media} />)}
+      {medias?.data.map((media: Media) => <MediaTile {...media} />)}
     </FavoritesSubSection>
   </div>
 </SectionCard>

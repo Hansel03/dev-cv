@@ -1,4 +1,4 @@
-import type { DownloadButton, LabelledValue, LinkButton, Section, Tag } from '../shared';
+import type { DownloadButton, Photo, LabelledValue, LinkButton, Section, Tag } from '../shared';
 
 export interface MainSection extends Section {
   /**
@@ -8,7 +8,7 @@ export interface MainSection extends Section {
    *
    * **Display size**: 208x208px
    */
-  // image: Photo;
+  image: Photo;
 
   /**
    * Your name.

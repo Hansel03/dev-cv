@@ -49,8 +49,9 @@ export interface Props extends Omit<astroHTML.JSX.HTMLAttributes, 'slot'>, LinkP
   variant?: TypographyVariant;
 }
 
-const { variant = 'paragraph', as, class: className, ...props } = Astro.props;
-const Element = as ?? variantToElement[variant];
+const { variant, as, class: className, ...props } = Astro.props;
+const typedVariant: TypographyVariant = variant ?? 'paragraph';
+const Element = (as ?? variantToElement[typedVariant]) as keyof JSX.IntrinsicElements;
 ---
 
-<Element {...props} class:list={[variantToClassName[variant], className]}><slot /></Element>
+<Element {...props} class:list={[variantToClassName[typedVariant], className]}><slot /></Element>

@@ -14,15 +14,18 @@ const { config, diplomas } = Astro.props;
   <SectionHeading>{config.title}</SectionHeading>
   <div class="flex flex-col">
     {
-      diplomas.map(({ title, description, institution, dates }) => () => (
-        <>
-          <div class="flex flex-col gap-2">
-            <ListItemHeading title={title} subtitle={institution} dates={dates} />
-            <Description content={description} />
-          </div>
-          <DashedDivider />
-        </>
-      ))
+      diplomas.map((diploma: (typeof diplomas)[number]) => {
+        const { title, description, institution, dates } = diploma;
+        return () => (
+          <>
+            <div class="flex flex-col gap-2">
+              <ListItemHeading title={title} subtitle={institution} dates={dates} />
+              <Description content={description} />
+            </div>
+            <DashedDivider />
+          </>
+        );
+      })
     }
   </div>
 </div>

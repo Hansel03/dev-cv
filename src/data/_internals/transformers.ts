@@ -10,8 +10,6 @@ type Sections = PreciseData['sections'];
 
 type SectionKey = keyof Sections;
 
-type ProjectName = Sections['portfolio']['projects'][number]['name'];
-
 type JobRole = Sections['experience']['jobs'][number]['role'];
 
 type JobCompany = Sections['experience']['jobs'][number]['company'];
@@ -52,12 +50,6 @@ export const hideDiploma =
     draft.sections.education.diplomas = draft.sections.education.diplomas.filter(
       (diploma) => diploma.title === title && diploma.institution === institution,
     );
-  };
-
-export const hideProject =
-  (name: ProjectName): DataTransformer =>
-  (draft) => {
-    draft.sections.portfolio.projects = draft.sections.portfolio.projects.filter((project) => project.name !== name);
   };
 
 export const hideSkillSet =

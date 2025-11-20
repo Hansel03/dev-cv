@@ -9,7 +9,7 @@ const mainSectionData = {
     slug: 'profile',
     visible: true,
   },
-  // image: import('@/assets/my-image.png'),
+  image: import('@/assets/my-image.png'),
   fullName: 'Hansel Suarez',
   role: 'FrontEnd Developer',
   details: [
